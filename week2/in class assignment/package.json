@@ -1,0 +1,12 @@
+{
+  "name": "neil",
+  "version": "1.0.0",
+  "description": "Dictionary",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "author": "Neil Gupte",
+  "license": "ISC"
+}

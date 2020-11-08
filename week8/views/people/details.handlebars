@@ -1,0 +1,32 @@
+
+<head>
+    <meta charset="utf-8">
+    <title>People Found</title>
+    <link rel="stylesheet" href="/public/site.css">
+</head>
+
+<body>
+    <h1>People Found</h1>
+    <h2>{{persons.firstName}} {{persons.lastName}}</h2>
+    <main>
+        <dl>
+        <dt>ID</dt>
+        <dd>{{persons.id}}</dd>
+        <dt>First Name</dt>
+        <dd>{{persons.firstName}}</dd>
+        <dt>Last Name</dt>
+        <dd>{{persons.lastName}}</dd>
+        <dt>Address</dt>
+        <dd>{{persons.address}}</dd>
+        <dt>Zip Code</dt>
+        <dd>{{persons.zip}}</dd>
+        <dt>Phone</dt>
+        <dd>{{persons.phone}}</dd>
+        <dt>Social Security Number</dt>
+        <dd>{{persons.ssn}}</dd>
+        </dl>
+        <a href="/">Make another search</a> 
+        
+        {{{body}}}
+    </main>
+</body>

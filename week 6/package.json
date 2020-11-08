@@ -1,0 +1,15 @@
+{
+  "name": "lab06_cs546",
+  "version": "1.0.0",
+  "description": "lab06",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Neil Gupte 10445674",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,153 @@
+body{
+background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+h1 {
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+    text-align: center;
+    
+    font-size: 50px
+  }
+  
+  
+  h2{
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+    text-align: center;
+    
+    font-size: 40px
+  }
+  
+main{
+    margin: 0 auto;
+    width: 50%;
+    text-align: justify;
+    
+}
+section{
+    border: 5px double #FFFFFF;
+    padding: 15px;
+}
+
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    background-color: #ddd;
+  }
+  
+p{
+    text-align-last: center;
+    font-size: 20px
+}
+label {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+    }
+input{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    width: 250px;
+    }
+a{
+    text-align: center;
+    font-size: 20px;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+dl {
+    border: 2px double black;
+    padding: 0.5em;
+  }
+  dt {
+    float: left;
+    clear: left;
+    width: 200px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    color: green;
+  }
+  dt::after {
+    content: ":";
+  }
+  dd {
+    font-size: 20px;
+    margin: 0 0 0 200px;
+    padding: 0 0 0.5em 0;
+  } 
+  main{
+      text-align: center;
+  }
+  .error{
+      font-size: 30px;
+      color: red;
+  } 

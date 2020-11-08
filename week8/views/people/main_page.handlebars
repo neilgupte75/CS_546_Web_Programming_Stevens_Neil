@@ -1,0 +1,18 @@
+
+<head>
+    <meta charset="utf-8">
+    <title>People Finder</title>
+    <link rel="stylesheet" href="/public/site.css">
+</head>
+<body>
+    <h1>People Finder</h1>
+    <main>
+        <p>Welcome to the sites which helps you find those you care for.You just need to to provide the name you are searching and then voila. You will get all the details!</p>
+        <form action="/search" method="POST">
+      <input type="text" name="personName" id="personName" placeholder="please enter the person"/>
+        <label for="personName">Person entry</label><br/>
+        <button type="submit" class="button">Search</button>
+        </form>    
+        {{{body}}}
+    </main>
+</body>
